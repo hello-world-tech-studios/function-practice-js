@@ -16,7 +16,7 @@
 * Write a function called `greetMe`: It should take in someone's name and return "Hello, [The person's name]!". For example, `greetMe("Joe")` should return "Hello, Joe!"
 * `isItLessThanTen`: Should take in a number. If the given number is 10 or less it should return "Your number is less than 10". If the given number is greater than 10 is should return "Your number is not less than 100".
 * `inHighSchool`: Should take in a person's age. If they are old enough to be in high school it should return "High Schooler", otherwise it should return "Nope".
-* `areTheySpeeding`: Should take in a speed (in mph). If the speed is less the 75 it should return "Thanks for driving safely!", otherwise it should return "SLOW DOWN!!"
+* `areTheySpeeding`: Should take in a speed (in mph). If the speed is less than 75 it should return "Thanks for driving safely!", otherwise it should return "SLOW DOWN!!"
 * `addTwoNumbers`: Should take in TWO numbers and return the sum of those two numbers.
 * `multiplyTwoNumbers`: Should take in TWO numbers and return the product of those two numbers.
 
