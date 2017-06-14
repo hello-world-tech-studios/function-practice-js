@@ -5,9 +5,9 @@
 * Open `index.html` in Chrome
 * Write a paragraph tag saying, "I LOVE FUNCTIONS!"
 * Create an image tag for this url https://media2.giphy.com/media/13HgwGsXF0aiGY/giphy.gif . This will be you during this exercise. A true hacker never stops for anything. Just kidding, I hope you would stop to put out a fire.
+* Open the developer tools console in Chrome.
 
 ## In `script.js`
-* Open the developer tools console in Chrome.
 ### Use the directions below to write your functions in `script.js`
 ###### Check each function as you go!
 * Write a function called `summertime`: It should return the phrase "It's summertime baby!"
