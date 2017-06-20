@@ -59,7 +59,7 @@ function isItLessThanTen(na) {
 //////////////////////////////////////////////////////////////////////////
   // Write `inHighSchool` below.
 function inHighSchool(age){
-  if(13<age, age<19){
+  if(13<age && age<19){
     return "High Schooler"
   }else {
     return "Nope"
@@ -74,28 +74,38 @@ function inHighSchool(age){
   console.log(inHighSchool(10));
 //////////////////////////////////////////////////////////////////////////
   // Write `areTheySpeeding` below.
-
+function areTheySpeeding (unm){
+  if (unm<=75){
+    return "Thanks for driving safely!"
+  }else{
+    return "SLOW DOWN!!"
+  }
+}
 
 
 
   // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(areTheySpeeding(60));
-  // console.log(areTheySpeeding(90));
+  console.log(areTheySpeeding(60));
+  console.log(areTheySpeeding(90));
 //////////////////////////////////////////////////////////////////////////
   // Write `addTwoNumbers` below.
-
+function addTwoNumbers(num1,num2){
+  return num1 + num2
+}
 
 
 
   // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(addTwoNumbers(3, 4));
+  console.log(addTwoNumbers(3, 4));
 //////////////////////////////////////////////////////////////////////////
   // Write `multiplyTwoNumbers` below.
-
+function multiplyTwoNumbers(num3,num4){
+  return num3 * num4
+}
 
 
 
   // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(multiplyTwoNumbers(8, 10));
+  console.log(multiplyTwoNumbers(8, 10));
 //////////////////////////////////////////////////////////////////////////
 })
