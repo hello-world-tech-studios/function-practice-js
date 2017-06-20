@@ -63,29 +63,32 @@ function inHighSchool(age){
   console.log(inHighSchool(10));
 //////////////////////////////////////////////////////////////////////////
   // Write `areTheySpeeding` below.
-
-
-
-
-
+function areTheySpeeding (speed){
+  if (speed<=75){
+    return "Thanks for driving safely"
+  } else{
+    return "SLOW DOWN!"
+  }
+}
   // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(areTheySpeeding(60));
-  // console.log(areTheySpeeding(90));
+  console.log(areTheySpeeding(60));
+  console.log(areTheySpeeding(90));
 //////////////////////////////////////////////////////////////////////////
   // Write `addTwoNumbers` below.
-
+function addTwoNumbers (number, numbre){
+  return number+numbre
+}
 
 
 
   // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(addTwoNumbers(3, 4));
+  console.log(addTwoNumbers(3, 4));
 //////////////////////////////////////////////////////////////////////////
   // Write `multiplyTwoNumbers` below.
-
-
-
-
+function multiplyTwoNumbers(number, numbre){
+return number*numbre
+}
   // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(multiplyTwoNumbers(8, 10));
+  console.log(multiplyTwoNumbers(8, 10));
 //////////////////////////////////////////////////////////////////////////
 })
