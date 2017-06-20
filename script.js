@@ -93,11 +93,13 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log(addTwoNumbers(3, 4));
 //////////////////////////////////////////////////////////////////////////
   // Write `multiplyTwoNumbers` below.
-
+  function multiplyTwoNumbers(number1, number2){
+    return number1 * number2;
+  }
 
 
 
   // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(multiplyTwoNumbers(8, 10));
+  console.log(multiplyTwoNumbers(8, 10));
 //////////////////////////////////////////////////////////////////////////
 })
