@@ -1,77 +1,77 @@
 document.addEventListener('DOMContentLoaded', function() {
-//////////////////////////////////////////////////////////////////////////
-  // Write the `summertime` function below.
+
+function summertime() {
+  return "It's summertime baby!";
+}
+
+   console.log(summertime())
 
 
+function addFive(number){
+  return number + 5
+}
 
-  // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(summertime())
-
-//////////////////////////////////////////////////////////////////////////
-  // Write `addFive` below. 
-
+ console.log(addFive(10))
 
 
-  // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(addFive(10))
-//////////////////////////////////////////////////////////////////////////
-  // Write `double` below.
+function double(doubledNumber){
+  return doubledNumber * 2
+}
+
+  console.log(double(6));
 
 
+function greetMe(Name){
+  return "hello, "+ Name 
+}
 
-  // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(double(6));
-//////////////////////////////////////////////////////////////////////////
-  // Write `greetMe` below.
-
-
+  console.log(greetMe("Carl"));
 
 
-  // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(greetMe("Carl"));
-//////////////////////////////////////////////////////////////////////////
-  // Write `isItLessThanTen` below.
+function isItLessThanTen(tenOrBelow){
+  if(tenOrBelow < 10){
+    return "your number is less than ten"}
+  else{
+    return "your number is not less than ten"
+}}
+
+  console.log(isItLessThanTen(3));
 
 
+function inHighSchool(HighSchoolAge){
+  if(HighSchoolAge >=14){
+    return "High Schooler"}
+  else{
+    return "nope"
+}
+}
+
+   console.log(inHighSchool(10));
 
 
-  // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(isItLessThanTen(3));
-// console.log(isItLessThanTen(20));
-//////////////////////////////////////////////////////////////////////////
-  // Write `inHighSchool` below.
+function areTheySpeeding(speed){
+  if(speed < 75){
+    return "thanks for driving safely"}
+  else{
+    return "SLOW DOWN!!"
+}
+}
+
+   console.log(areTheySpeeding(90));
 
 
+function addTwoNumbers(numberOne, numberTwo){
+return numberOne + numberTwo;
+}
+
+  console.log(addTwoNumbers(3, 4));
 
 
-
-  // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(inHighSchool(17));
-  // console.log(inHighSchool(10));
-//////////////////////////////////////////////////////////////////////////
-  // Write `areTheySpeeding` below.
+function multiplyTwoNumbers(numOne, numTwo){
+return numOne * numTwo
+}
 
 
+  console.log(multiplyTwoNumbers(8, 10));
 
-
-  // Uncomment the line below, and look in the console to see if your function worked!
-  // console.log(areTheySpeeding(60));
-  // console.log(areTheySpeeding(90));
-//////////////////////////////////////////////////////////////////////////
-  // Write `addTwoNumbers` below.
-
-
-
-
-  // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(addTwoNumbers(3, 4));
-//////////////////////////////////////////////////////////////////////////
-  // Write `multiplyTwoNumbers` below.
-
-
-
-
-  // Uncomment the lines below, and look in the console to see if your function worked!
-  // console.log(multiplyTwoNumbers(8, 10));
-//////////////////////////////////////////////////////////////////////////
 })
